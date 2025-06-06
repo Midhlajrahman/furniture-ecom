@@ -40,3 +40,32 @@
     text-align: center;
     width: 100% !important;
 }
+
+.terms-of-use-wrap > .right .heading {
+    margin-bottom: 20px !important;
+}
+
+.custom-bullet-list, .terms-of-use-wrap ul {
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+.custom-bullet-list li, .terms-of-use-wrap li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.custom-bullet-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+}

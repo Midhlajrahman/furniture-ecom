@@ -254,1750 +254,356 @@
         </section>
         <!-- /Banner section -->
 
-        <!-- Seller -->
-        <section class="flat-spacing-3">
+         <!-- more waiting section -->
+         <section class="flat-spacing-2 pb_0 trending-section">
             <div class="container">
-                <div class="flat-animate-tab">
-                    <ul class="tab-product justify-content-sm-center" role="tablist">
-                        <li class="nav-tab-item" role="presentation">
-                            <a href="#newArrivals" class="active" data-bs-toggle="tab">New Arrivals</a>
-                        </li>
-                        <li class="nav-tab-item" role="presentation">
-                            <a href="#bestSeller" data-bs-toggle="tab">Best Seller</a>
-                        </li>
-                        <li class="nav-tab-item" role="presentation">
-                            <a href="#onSale" data-bs-toggle="tab">On Sale</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane active show" id="newArrivals" role="tabpanel">
-                            <div class="tf-grid-layout tf-col-2 lg-col-3 xl-col-4">
-                                <!-- card product 1 -->
-                                <div class="card-product wow fadeInUp">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-19.jpg' %}" src="{% static 'web/images/products/womens/women-19.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-20.jpg' %}" src="{% static 'web/images/products/womens/women-20.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">V-neck cotton T-shirt</a>
-                                        <span class="price">$59.99</span>
-                                    </div>
+                <div class="heading-section-2 wow fadeInUp">
+                    <h3>More Waiting for You</h3>
+                </div>
+                <div dir="ltr" class="swiper tf-sw-latest" data-preview="4" data-tablet="3" data-mobile="2" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending1.webp' %}" src="{% static 'web/images/extra/living_room.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Living Room</div>
+                                    </a>
                                 </div>
-                                <!-- card product 2 -->
-                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-179.jpg' %}" src="{% static 'web/images/products/womens/women-179.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="marquee-product bg-main">
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Polarized sunglasses</a>
-                                        <span class="price"><span class="old-price">$98.00</span> $79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-blue"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-blue-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-177.jpg' %}" src="{% static 'web/images/products/womens/women-177.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 3 -->
-                                <div class="card-product card-product-size wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-30.jpg' %}" src="{% static 'web/images/products/womens/women-30.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="variant-wrap countdown-wrap">
-                                            <div class="variant-box">
-                                                <div class="js-countdown" data-timer="1007500" data-labels="D :,H :,M :,S"></div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ramie shirt with pockets </a>
-                                        <span class="price"><span class="old-price">$98.00</span> $89.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-33.jpg' %}" src="{% static 'web/images/products/womens/women-33.jpg' %}" alt="image-product">
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 4 -->
-                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$69.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-dark-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-3.jpg' %}" src="{% static 'web/images/products/womens/women-3.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 5 -->
-                                <div class="card-product card-product-size wow fadeInUp">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-8.jpg' %}" src="{% static 'web/images/products/womens/women-8.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-9.jpg' %}" src="{% static 'web/images/products/womens/women-9.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$39.99</span>
-                                    </div>
-                                </div>
-                                <!-- card product 6 -->
-                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                        </a>
-                                        
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Faux-leather trousers</a>
-                                        <span class="price">$79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 7 -->
-                                <div class="card-product card-product-size wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-84.jpg' %}" src="{% static 'web/images/products/womens/women-84.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Belt wrap dress</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$129.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-light-green"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-94.jpg' %}" src="{% static 'web/images/products/womens/women-94.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-87.jpg' %}" src="{% static 'web/images/products/womens/women-87.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 8 -->
-                                <div class="card-product card-product-size wow fadeInUp" data-wow-delay="0.3s">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-103.jpg' %}" src="{% static 'web/images/products/womens/women-103.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Double-button trench coat</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$219.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-111.jpg' %}" src="{% static 'web/images/products/womens/women-111.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-104.jpg' %}" src="{% static 'web/images/products/womens/women-104.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sec-btn text-center">
-                                <a href="shop-default-grid.html" class="btn-line">View All Products</a>
                             </div>
                         </div>
-                        <div class="tab-pane" id="bestSeller" role="tabpanel">
-                            <div class="tf-grid-layout tf-col-2 lg-col-3 xl-col-4">
-                                <!-- card product 1 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-19.jpg' %}" src="{% static 'web/images/products/womens/women-19.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-20.jpg' %}" src="{% static 'web/images/products/womens/women-20.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">V-neck cotton T-shirt</a>
-                                        <span class="price">$59.99</span>
-                                        
-                                    </div>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending2.webp' %}" src="{% static 'web/images/extra/dining_room.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Dining Room</div>
+                                    </a>
                                 </div>
-                                <!-- card product 2 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-179.jpg' %}" src="{% static 'web/images/products/womens/women-179.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="marquee-product bg-main">
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Polarized sunglasses</a>
-                                        <span class="price"><span class="old-price">$98.00</span> $79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-blue"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-blue-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-177.jpg' %}" src="{% static 'web/images/products/womens/women-177.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 3 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-30.jpg' %}" src="{% static 'web/images/products/womens/women-30.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="variant-wrap countdown-wrap">
-                                            <div class="variant-box">
-                                                <div class="js-countdown" data-timer="1007500" data-labels="D :,H :,M :,S"></div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ramie shirt with pockets </a>
-                                        <span class="price"><span class="old-price">$98.00</span> $89.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-33.jpg' %}" src="{% static 'web/images/products/womens/women-33.jpg' %}" alt="image-product">
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 4 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$69.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-dark-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-3.jpg' %}" src="{% static 'web/images/products/womens/women-3.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 5 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-8.jpg' %}" src="{% static 'web/images/products/womens/women-8.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-9.jpg' %}" src="{% static 'web/images/products/womens/women-9.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$39.99</span>
-                                    </div>
-                                </div>
-                                <!-- card product 6 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                        </a>
-                                        
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Faux-leather trousers</a>
-                                        <span class="price">$79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 7 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-84.jpg' %}" src="{% static 'web/images/products/womens/women-84.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Belt wrap dress</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$129.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-light-green"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-94.jpg' %}" src="{% static 'web/images/products/womens/women-94.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-87.jpg' %}" src="{% static 'web/images/products/womens/women-87.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 8 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-103.jpg' %}" src="{% static 'web/images/products/womens/women-103.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Double-button trench coat</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$219.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-111.jpg' %}" src="{% static 'web/images/products/womens/women-111.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-104.jpg' %}" src="{% static 'web/images/products/womens/women-104.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sec-btn text-center">
-                                <a href="shop-default-grid.html" class="btn-line">View All Products</a>
                             </div>
                         </div>
-                        <div class="tab-pane" id="onSale" role="tabpanel">
-                            <div class="tf-grid-layout tf-col-2 lg-col-3 xl-col-4">
-                                <!-- card product 1 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-19.jpg' %}" src="{% static 'web/images/products/womens/women-19.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-20.jpg' %}" src="{% static 'web/images/products/womens/women-20.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">V-neck cotton T-shirt</a>
-                                        <span class="price">$59.99</span>
-                                        
-                                    </div>
-                                </div>
-                                <!-- card product 2 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-179.jpg' %}" src="{% static 'web/images/products/womens/women-179.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="marquee-product bg-main">
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="marquee-wrapper">
-                                                <div class="initial-child-container">
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <p class="font-2 text-btn-uppercase fw-6 text-white">Hot Sale 25% OFF</p>
-                                                    </div>
-                                                    <div class="marquee-child-item">
-                                                        <span class="icon icon-lightning text-critical"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Polarized sunglasses</a>
-                                        <span class="price"><span class="old-price">$98.00</span> $79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-blue"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-176.jpg' %}" src="{% static 'web/images/products/womens/women-176.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-blue-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-177.jpg' %}" src="{% static 'web/images/products/womens/women-177.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 3 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-30.jpg' %}" src="{% static 'web/images/products/womens/women-30.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="variant-wrap countdown-wrap">
-                                            <div class="variant-box">
-                                                <div class="js-countdown" data-timer="1007500" data-labels="D :,H :,M :,S"></div>
-                                            </div>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ramie shirt with pockets </a>
-                                        <span class="price"><span class="old-price">$98.00</span> $89.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-29.jpg' %}" src="{% static 'web/images/products/womens/women-29.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-33.jpg' %}" src="{% static 'web/images/products/womens/women-33.jpg' %}" alt="image-product">
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 4 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#shoppingCart" data-bs-toggle="modal" class="btn-main-product">Add To cart</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$69.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active line">
-                                                <span class="swatch-value bg-dark-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-1.jpg' %}" src="{% static 'web/images/products/womens/women-1.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-2.jpg' %}" src="{% static 'web/images/products/womens/women-2.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-3.jpg' %}" src="{% static 'web/images/products/womens/women-3.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 5 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-8.jpg' %}" src="{% static 'web/images/products/womens/women-8.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-9.jpg' %}" src="{% static 'web/images/products/womens/women-9.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Ribbed cotton-blend top</a>
-                                        <span class="price">$39.99</span>
-                                    </div>
-                                </div>
-                                <!-- card product 6 -->
-                                <div class="card-product">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                        </a>
-                                        
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Faux-leather trousers</a>
-                                        <span class="price">$79.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-171.jpg' %}" src="{% static 'web/images/products/womens/women-171.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-dark-pink"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-172.jpg' %}" src="{% static 'web/images/products/womens/women-172.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 7 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-84.jpg' %}" src="{% static 'web/images/products/womens/women-84.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Belt wrap dress</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$129.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-light-green"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-83.jpg' %}" src="{% static 'web/images/products/womens/women-83.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-grey"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-94.jpg' %}" src="{% static 'web/images/products/womens/women-94.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-87.jpg' %}" src="{% static 'web/images/products/womens/women-87.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- card product 8 -->
-                                <div class="card-product card-product-size">
-                                    <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="lazyload img-product" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            <img class="lazyload img-hover" data-src="{% static 'web/images/products/womens/women-103.jpg' %}" src="{% static 'web/images/products/womens/women-103.jpg' %}" alt="image-product">
-                                        </a>
-                                        <div class="on-sale-wrap"><span class="on-sale-item">-25%</span></div>
-                                        <div class="variant-wrap size-list">
-                                            <ul class="variant-box">
-                                                <li class="size-item">S</li>
-                                                <li class="size-item">M</li>
-                                                <li class="size-item">L</li>
-                                                <li class="size-item">XL</li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-product-btn">
-                                            <a href="javascript:void(0);" class="box-icon wishlist btn-icon-action">
-                                                <span class="icon icon-heart"></span>
-                                                <span class="tooltip">Wishlist</span>
-                                            </a>
-                                            <a href="#compare" data-bs-toggle="offcanvas" aria-controls="compare" class="box-icon compare btn-icon-action">
-                                                <span class="icon icon-gitDiff"></span>
-                                                <span class="tooltip">Compare</span>
-                                            </a>
-                                            <a href="#quickView" data-bs-toggle="modal" class="box-icon quickview tf-btn-loading">
-                                                <span class="icon icon-eye"></span>
-                                                <span class="tooltip">Quick View</span>
-                                            </a>
-                                        </div>
-                                        <div class="list-btn-main">
-                                            <a href="#quickAdd" data-bs-toggle="modal" class="btn-main-product">Quick Add</a>
-                                        </div> 
-                                    </div>
-                                    <div class="card-product-info">
-                                        <a href="product-detail.html" class="title link">Double-button trench coat</a>
-                                        <span class="price"><span class="old-price">$98.00</span>$219.99</span>
-                                        <ul class="list-color-product">
-                                            <li class="list-color-item color-swatch active">
-                                                <span class="swatch-value bg-grey-2"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-102.jpg' %}" src="{% static 'web/images/products/womens/women-102.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch">
-                                                <span class="swatch-value bg-light-orange"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-111.jpg' %}" src="{% static 'web/images/products/womens/women-111.jpg' %}" alt="image-product">
-                                            </li>
-                                            <li class="list-color-item color-swatch line">
-                                                <span class="swatch-value bg-white"></span>
-                                                <img class="lazyload" data-src="{% static 'web/images/products/womens/women-104.jpg' %}" src="{% static 'web/images/products/womens/women-104.jpg' %}" alt="image-product">
-                                            </li>
-                                        </ul>
-                                    </div>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending3.webp' %}" src="{% static 'web/images/extra/bed_room.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Bed Room</div>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="sec-btn text-center">
-                                <a href="shop-default-grid.html" class="btn-line">View All Products</a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending4.webp' %}" src="{% static 'web/images/extra/living.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Outdoor & Indoor Living</div>
+                                    </a>
+                                </div>
                             </div>
+                        </div>
+
+                      
+                       
+                    </div>
+                    <div class="sw-pagination-latest sw-dots type-circle justify-content-center"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /more waiting section -->
+
+        <!-- Banner section -->
+        <section class="banner-images-section flat-spacing-2 pb_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-md-12 col-12 mb-5">
+                        <div class="banner-img wow fadeInUp" data-wow-delay="0s">
+                            <img src="{% static 'web/images/extra/card_img6.webp' %}">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-sm-12 col-md-12 col-12">
+                        <div class="banner-img wow fadeInUp" data-wow-delay="0s">
+                            <img src="{% static 'web/images/extra/card_img7.webp' %}">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- /Seller -->
-        <!-- Banner collection -->
-        <section class="flat-spacing pt-0">
+        <!-- /Banner section -->
+
+        <!-- team section -->
+        <section class="flat-spacing-2 pb_0 trending-section">
             <div class="container">
-                <div class="tf-grid-layout md-col-2">
-                    <div class="collection-default hover-img">
-                        <a class="img-style">
-                            <img class="lazyload" data-src="{% static 'web/images/collections/banner-collection/banner-cls1.jpg' %}" src="{% static 'web/images/collections/banner-collection/banner-cls1.jpg' %}" alt="banner-cls">
-                        </a>
-                        <div class="content">
-                            <h3 class="title wow fadeInUp"><a href="shop-collection.html" class="link">Crossbody bag</a></h3>
-                            <p class="desc wow fadeInUp">From beach to party: Perfect styles for every occasion.</p>
-                            <div class="wow fadeInUp">
-                                <a href="shop-collection.html" class="btn-line">Shop Now</a>
+                <div class="heading-section-2 wow fadeInUp">
+                    <h3>Meet our Design Masters</h3>
+                </div>
+                <div dir="ltr" class="swiper tf-sw-latest" data-preview="4" data-tablet="3" data-mobile="2" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending1.webp' %}" src="{% static 'web/images/extra/team1.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Says Who</div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="collection-position hover-img">
-                        <a class="img-style">
-                            <img class="lazyload" data-src="{% static 'web/images/collections/banner-collection/banner-cls2.jpg' %}" src="{% static 'web/images/collections/banner-collection/banner-cls2.jpg' %}" alt="banner-cls">
-                        </a>
-                        <div class="content">
-                            <h3 class="title"><a href="shop-collection.html" class="link text-white wow fadeInUp">Capsule Collection</a></h3>
-                            <p class="desc text-white wow fadeInUp">Reserved for special occasions</p>
-                            <div class=" wow fadeInUp">
-                                <a href="shop-collection.html" class="btn-line style-white">Shop Now</a>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending2.webp' %}" src="{% static 'web/images/extra/team2.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Sanne Protin</div>
+                                    </a>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending3.webp' %}" src="{% static 'web/images/extra/team3.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Morten Georgsen</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card-product wow fadeInUp" data-wow-delay="0s">
+                                <div class="card-product-wrapper position-relative">
+                                    <a href="product-detail.html" class="product-img d-block position-relative">
+                                        <img data-src="{% static 'web/images/extra/trending4.webp' %}" src="{% static 'web/images/extra/team4.webp' %}" alt="image-product" class="img-fluid">
+                                        <div class="image-overlay-gradient"></div>
+                                        <div class="image-title">Jacob Amtorp</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="sw-pagination-latest sw-dots type-circle justify-content-center"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /team section -->
+
+        <!-- Banner section -->
+        <section class="banner-images-section flat-spacing-2 pb_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-md-12 col-12 mb-5">
+                        <div class="banner-img wow fadeInUp" data-wow-delay="0s">
+                            <img src="{% static 'web/images/extra/card_img8.webp' %}">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /Banner section -->
+
+        <!-- Partner -->
+        <section class="flat-spacing-5 bg-surface">
+            <div class="container">
+                <div dir="ltr" class="swiper tf-sw-partner sw-auto" data-preview="auto" data-tablet="auto" data-mobile-sm="auto" data-mobile="auto" data-space-lg="74" data-space-md="50" data-space="50" data-loop="true" data-auto-play="true" data-delay="0">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/vanfaba.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/anvouge.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/carolin.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/shangxi.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/ecomife.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/cheryl.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/sopify.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/pennyw.png' %}" alt="brand">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="brand-item">
+                                <img src="{% static 'web/images/brand/panadoxn.png' %}" alt="brand">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- /Banner collection -->
-        <!-- Banner countdown -->
-        <section class="bg-surface flat-spacing flat-countdown-banner">
+        <!-- /Partner -->
+
+        <!-- Banner section -->
+        <section class="banner-images-section flat-spacing-2 pb_0">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="banner-left">
-                            <div class="box-title">
-                                <h3 class="wow fadeInUp">Limited-Time Deals On!</h3>
-                                <p class="text-secondary wow fadeInUp">Up to 50% Off Selected Styles. Don't Miss Out.</p>
-                            </div>
-                            <div class="btn-banner wow fadeInUp">
-                                <a href="shop-default-grid.html" class="tf-btn btn-fill"><span class="text">Shop Now</span><i class="icon icon-arrowUpRight"></i></a>
-                            </div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-md-12 col-12 mb-5">
+                        <div class="banner-img wow fadeInUp" data-wow-delay="0s">
+                            <img src="{% static 'web/images/extra/card_img9.webp' %}">
                         </div>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="banner-img">
-                            <img class="lazyload" data-src="{% static 'web/images/banner/img-countdown1.png' %}" src="{% static 'web/images/banner/img-countdown1.png' %}" alt="banner">
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="banner-right">
-                            <div class="tf-countdown-lg">
-                                <div class="js-countdown" data-timer="1007500" data-labels="Days,Hours,Mins,Secs"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </section>
-        <!-- /Banner countdown -->
-        <!-- Testimonial -->
+        <!-- /Banner section -->
+
+         <!-- Category collection -->
+         <section class="flat-spacing-2 pb_0 category-section">
+            <div class="container">
+                <div class="heading-section text-center wow fadeInUp">
+                    <h3 class="heading">Curated Galleries</h3>
+                    <p class="subheading text-secondary mx-auto">Our stores exude an aura that’s irresistible with great wood and fabric. Catching your eyes and captivating your mind, our art stands at every nook and corner looking at you. Visit and get consumed.</p>
+                </div>
+                <div dir="ltr" class="swiper tf-sw-collection sw-lookbook-wrap" data-preview="3" data-tablet="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="collection-position-3 hover-img wow fadeInUp" data-wow-delay="0s">
+                                <a href="shop-collection.html" class="img-style">
+                                    <img class="lazyload" data-src="{% static 'web/images/extra/store1.webp' %}" src="{% static 'web/images/extra/store1.webp' %}" alt="banner-cls">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="collection-position-3 hover-img wow fadeInUp" data-wow-delay="0s">
+                                <a href="shop-collection.html" class="img-style">
+                                    <img class="lazyload" data-src="{% static 'web/images/extra/store2.webp' %}" src="{% static 'web/images/extra/store2.webp' %}" alt="banner-cls">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="collection-position-3 hover-img wow fadeInUp" data-wow-delay="0s">
+                                <a href="shop-collection.html" class="img-style">
+                                    <img class="lazyload" data-src="{% static 'web/images/extra/store3.webp' %}" src="{% static 'web/images/extra/store3.webp' %}" alt="banner-cls">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sw-pagination-collection sw-dots type-circle justify-content-center"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Category collection -->
+
+        <!-- Terms of use -->
         <section class="flat-spacing">
             <div class="container">
-                <div class="heading-section text-center">
-                    <h3 class="heading wow fadeInUp">Customer Say!</h3>
-                    <p class="subheading wow fadeInUp">Our customers adore our products, and we constantly aim to delight them.</p>
-                </div>
-                <div dir="ltr" class="swiper tf-sw-testimonial" data-preview="2" data-tablet="1.3" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-item hover-img">
-                                <div class="img-style">
-                                    <img data-src="{% static 'web/images/testimonial/tes-1.jpg' %}" src="{% static 'web/images/testimonial/tes-1.jpg' %}" alt="img-testimonial">
-                                    <a href="#quickView" data-bs-toggle="modal" class="box-icon hover-tooltip center">
-                                        <span class="icon icon-eye"></span>
-                                        <span class="tooltip">Quick View</span>
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                        </div>
-                                        <p class="text-secondary">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
-                                        <div class="box-author">
-                                            <div class="text-title author">Sybil Sharp</div>
-                                            <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_15758_14563)">
-                                                <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </g>
-                                                <defs>
-                                                <clipPath id="clip0_15758_14563">
-                                                <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"/>
-                                                </clipPath>
-                                                </defs>
-                                            </svg> 
-                                        </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <div class="avatar avt-60 round">
-                                            <img src="{% static 'web/images/avatar/user-4.jpg' %}" alt="avt">
-                                        </div>
-                                        <div class="box-price">
-                                            <p class="text-title text-line-clamp-1">Contrasting sheepskin sweatshirt</p>
-                                            <div class="text-button price">$60.00</div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="terms-of-use-wrap">
+                    <div class="right">
+                        <h5 class="heading">Buy Premium Furniture Online</h5>
+                        <div class="terms-of-use-item item-scroll-target" data-scroll="terms">
+                            <div class="terms-of-use-content">
+                                <p>Your home reflects your personality, and choosing the right furniture plays a crucial role in defining its aesthetics and comfort. Premium furniture is not just about the visual appeal of your interiors but also has a lot to do with durability, functionality, and sophistication. </p>
+                                <p>You might be wondering if your bedroom, living room or office space needs a revamp, either way investing in premium furniture can make all the difference.</p>
+                                <p>At Dtale Modern, we bring you a stunning range of premium furniture designed to complement diverse styles and preferences. With a seamless online shopping experience, you can explore our curated collection and find pieces that perfectly align with your vision.</p>
+                                <p>So whether you're searching for entryway furniture, living room furniture, bedroom furniture, dining room furniture, home office furniture, or outdoor furniture, Dtale Modern has it all.</p>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-item hover-img">
-                                <div class="img-style">
-                                    <img data-src="{% static 'web/images/testimonial/tes-2.jpg' %}" src="{% static 'web/images/testimonial/tes-2.jpg' %}" alt="img-testimonial">
-                                    <a href="#quickView" data-bs-toggle="modal" class="box-icon hover-tooltip center">
-                                        <span class="icon icon-eye"></span>
-                                        <span class="tooltip">Quick View</span>
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                        </div>
-                                        <p class="text-secondary">"I absolutely love this shop! The products are high-quality and the customer service is excellent. I always leave with exactly what I need and a smile on my face."</p>
-                                        <div class="box-author">
-                                            <div class="text-title author">Mark G.</div>
-                                            <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_15758)">
-                                                <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </g>
-                                                <defs>
-                                                <clipPath id="clip0_15758">
-                                                <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"/>
-                                                </clipPath>
-                                                </defs>
-                                            </svg> 
-                                        </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <div class="avatar avt-60 round">
-                                            <img src="{% static 'web/images/avatar/user-5.jpg' %}" alt="avt">
-                                        </div>
-                                        <div class="box-price">
-                                            <p class="text-title text-line-clamp-1">Contrasting sheepskin sweatshirt</p>
-                                            <div class="text-button price">$60.00</div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="terms-of-use-item item-scroll-target" data-scroll="limitations">
+                            <h5 class="terms-of-use-title">How Can Premium Furniture Improve Your Home Aesthetics?</h5>
+                            <div class="terms-of-use-content">
+                                <p>Premium furniture is off course a functional addition to your home and it also serves as a statement piece that revolutionises your space. Here is how premium furniture can elevate the aesthetics of your home:</p>
+
+                                <ul class="custom-bullet-list">
+                                    <li><strong>Elegant Design:</strong> Premium furniture often features sophisticated craftsmanship and timeless styles that add charm to any room.</li>
+                                    <li><strong>Material Quality:</strong> High-end materials such as solid wood, leather, or metal finishes create a luxurious and durable look.</li>
+                                    <li><strong>Visual Harmony:</strong> Carefully designed pieces complement the overall interior theme, bringing balance and cohesiveness.</li>
+                                    <li><strong>Personal Expression:</strong> Designer furniture reflects your personal taste and creates a unique identity for your home.</li>
+                                    <li><strong>Space Optimization:</strong> Premium furniture often includes smart, stylish storage or multi-functional pieces that make your space look clean and organized.</li>
+                                    <li><strong>Increased Property Appeal:</strong> A well-furnished home with high-quality pieces can significantly increase aesthetic and resale value.</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-item hover-img">
-                                <div class="img-style">
-                                    <img data-src="{% static 'web/images/testimonial/tes-1.jpg' %}" src="{% static 'web/images/testimonial/tes-1.jpg' %}" alt="img-testimonial">
-                                    <a href="#quickView" data-bs-toggle="modal" class="box-icon hover-tooltip center">
-                                        <span class="icon icon-eye"></span>
-                                        <span class="tooltip">Quick View</span>
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                        </div>
-                                        <p class="text-secondary">"Fantastic shop! Great selection, fair prices, and friendly staff. Highly recommended. The quality of the products is exceptional, and the prices are very reasonable!"</p>
-                                        <div class="box-author">
-                                            <div class="text-title author">Sybil Sharp</div>
-                                            <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_15758_14)">
-                                                <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </g>
-                                                <defs>
-                                                <clipPath id="clip0_15758_14">
-                                                <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"/>
-                                                </clipPath>
-                                                </defs>
-                                            </svg> 
-                                        </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <div class="avatar avt-60 round">
-                                            <img src="{% static 'web/images/avatar/user-4.jpg' %}" alt="avt">
-                                        </div>
-                                        <div class="box-price">
-                                            <p class="text-title text-line-clamp-1">Contrasting sheepskin sweatshirt</p>
-                                            <div class="text-button price">$60.00</div>
-                                        </div>
-                                    </div>
-                                </div>
+
+                        <div class="terms-of-use-item item-scroll-target" data-scroll="limitations">
+                            <h5 class="terms-of-use-title">Things to Consider While Buying Premium Furniture</h5>
+                            <div class="terms-of-use-content">
+                                <p>Dtale Modern is your go-to destination for premium furniture, offering a seamless and enjoyable shopping experience. Here’s why you should pick Dtale Modern for your furniture shopping:</p>
+
+                                <ul>
+                                    <li><strong>Material & Quality: </strong> Plump for furniture made from high-quality materials like solid wood, metal, or premium upholstery to ensure durability.</li>
+                                    <li><strong>Design & Style: </strong> Choose furniture that complements your home’s decor and enhances its aesthetic appeal.</li>
+                                    <li><strong>Functionality & Space:</strong>  Ensure the furniture fits your space and serves a practical purpose without compromising on style.</li>
+                                    <li><strong>Comfort: </strong> Whether it’s a sofa, chair, or bed, comfort should be a priority while selecting furniture.</li>
+                                    <li><strong>Maintenance Requirements: </strong> Consider the upkeep required for different materials and finishes before making a purchase.</li>
+                                    <li><strong>Budget & Value: </strong> While premium furniture is an investment, ensure that it offers the best value for money in terms of quality and longevity.</li>
+                                </ul>
+                               
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-item hover-img">
-                                <div class="img-style">
-                                    <img data-src="{% static 'web/images/testimonial/tes-2.jpg' %}" src="{% static 'web/images/testimonial/tes-2.jpg' %}" alt="img-testimonial">
-                                    <a href="#quickView" data-bs-toggle="modal" class="box-icon hover-tooltip center">
-                                        <span class="icon icon-eye"></span>
-                                        <span class="tooltip">Quick View</span>
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                            <i class="icon icon-star"></i>
-                                        </div>
-                                        <p class="text-secondary">"I absolutely love this shop! The products are high-quality and the customer service is excellent. I always leave with exactly what I need and a smile on my face."</p>
-                                        <div class="box-author">
-                                            <div class="text-title author">Mark G.</div>
-                                            <svg class="icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_15758_145)">
-                                                <path d="M6.875 11.6255L8.75 13.5005L13.125 9.12549" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M10 18.5005C14.1421 18.5005 17.5 15.1426 17.5 11.0005C17.5 6.85835 14.1421 3.50049 10 3.50049C5.85786 3.50049 2.5 6.85835 2.5 11.0005C2.5 15.1426 5.85786 18.5005 10 18.5005Z" stroke="#3DAB25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </g>
-                                                <defs>
-                                                <clipPath id="clip0_15758_145">
-                                                <rect width="20" height="20" fill="white" transform="translate(0 0.684082)"/>
-                                                </clipPath>
-                                                </defs>
-                                            </svg> 
-                                        </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <div class="avatar avt-60 round">
-                                            <img src="{% static 'web/images/avatar/user-5.jpg' %}" alt="avt">
-                                        </div>
-                                        <div class="box-price">
-                                            <p class="text-title text-line-clamp-1">Contrasting sheepskin sweatshirt</p>
-                                            <div class="text-button price">$60.00</div>
-                                        </div>
-                                    </div>
-                                </div>
+
+                        <div class="terms-of-use-item item-scroll-target" data-scroll="limitations">
+                            <h5 class="terms-of-use-title">Why Buy Premium Furniture Online from Dtale Modern?</h5>
+                            <div class="terms-of-use-content">
+                                <p>Premium furniture is off course a functional addition to your home and it also serves as a statement piece that revolutionises your space. Here is how premium furniture can elevate the aesthetics of your home:</p>
+
+                                <ul class="custom-bullet-list">
+                                    <li><strong>Curated Collection:</strong> Our exclusive range includes stylish and high-quality furniture crafted to suit various interior aesthetics.</li>
+                                    <li><strong>Superior Craftsmanship:</strong> We prioritize excellence in not just the design but also construction, ensuring each piece stands out in terms of quality and durability.</li>
+                                    <li><strong>Convenient Online Shopping:</strong> Browse and shop for premium furniture from the comfort of your home with detailed product descriptions and high-resolution images.</li>
+                                    <li><strong>Secure Transactions & Easy Returns:</strong> Enjoy a hassle-free purchasing experience with our secure payment options and customer-friendly return policies.</li>
+                                    <li><strong>Exceptional Customer Service:</strong> Our dedicated support team is available to assist you in selecting the perfect furniture for your space.</li>
+                                </ul>
                             </div>
                         </div>
+
+                        <div class="terms-of-use-item item-scroll-target" data-scroll="limitations">
+                            <h5 class="terms-of-use-title">Build the Space of Your Dreams with Dtale Modern, the Premium Online Store.</h5>
+                            <div class="terms-of-use-content">
+                                <p>Your home is an extension of your personal space and choices and this haven deserves nothing short of what’s the best. At Dtale Modern, we are committed to helping you create a space that reflects your taste and lifestyle.  Whether you’re looking for sleek and modern designs, classic aesthetics, or a blend of both, our collection offers carefully crafted pieces that transform every room into a statement of refined taste.</p>
+                                <p>A collection of dining tables, modern beds, storage consoles, coffee tables, TV units, wardrobe furniture, bookshelves, accent chairs, and much more is what we have for you. At Dtale Modern, you can buy on-trend wooden furniture including outdoor furniture and home accents from the comfort of your own space, with features like simple EMI & free Pan-India shipping.</p>
+                                <p>From welcoming entryway collections to cosy living room sets, exquisite dining sets, serene bedroom furnishings, and efficient home office solutions—every piece at Dtale Modern is designed to elevate your interiors. Our thoughtfully curated selection ensures that you don’t just furnish a space but create an ambience that resonates with warmth and elegance</p>
+                                <p>Discover the perfect blend of sophistication and functionality—shop now and create a home that truly reflects you!</p>
+
+                            </div>
+                        </div>
+                       
                     </div>
-                    <div class="sw-pagination-testimonial sw-dots type-circle d-flex justify-content-center"></div>
                 </div>
             </div>
         </section>
-        <!-- /Testimonial -->
-        <!-- Latest new -->
-        <section class="flat-spacing pt-0">
-            <div class="container">
-                <div class="heading-section text-center">
-                    <h3 class="heading wow fadeInUp">News insight</h3>
-                    <p class="subheading text-secondary wow fadeInUp">Browse our Top Trending: the hottest picks loved by all.</p>
-                </div>
-                <div dir="ltr" class="swiper tf-sw-recent" data-preview="3" data-tablet="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="wg-blog style-1 hover-image wow fadeInUp">
-                                <div class="image">
-                                    <img class="lazyload" data-src="{% static 'web/images/blog/blog-grid-1.jpg' %}" src="{% static 'web/images/blog/blog-grid-1.jpg' %}" alt="">
-                                </div>
-                                <div class="content">
-                                    <p class="text-btn-uppercase text-secondary-2">13 August</p>
-                                    <div>
-                                        <h6 class="title fw-5">
-                                            <a class="link" href="blog-detail.html">Top 10 Summer Fashion Trends You Can't Miss in 2024</a>
-                                        </h6>
-                                        <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wg-blog style-1 hover-image wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="image">
-                                    <img class="lazyload" data-src="{% static 'web/images/blog/blog-grid-8.jpg' %}" src="{% static 'web/images/blog/blog-grid-8.jpg' %}" alt="">
-                                </div>
-                                <div class="content">
-                                    <p class="text-btn-uppercase text-secondary-2">13 August</p>
-                                    <div>
-                                        <h6 class="title fw-5">
-                                            <a class="link" href="blog-detail.html">How to Effortlessly Style Your Office Wear for a Modern Look</a>
-                                        </h6>
-                                        <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="wg-blog style-1 hover-image wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="image">
-                                    <img class="lazyload" data-src="{% static 'web/images/blog/blog-grid-6.jpg' %}" src="{% static 'web/images/blog/blog-grid-6.jpg' %}" alt="">
-                                </div>
-                                <div class="content">
-                                    <p class="text-btn-uppercase text-secondary-2">13 August</p>
-                                    
-                                    <div>
-                                        <h6 class="title fw-5">
-                                            <a class="link" href="blog-detail.html">Sustainable Fashion: Eco-Friendly Brands to Watch This Year</a>
-                                        </h6>
-                                        <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed vulputate massa.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>       
-                    </div>
-                    <div class="sw-pagination-recent sw-dots type-circle justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-        <!-- /Latest new -->
-        <!-- Gallery shop gram -->
-        <section>
-            <div class="container">
-                <div class="heading-section text-center">
-                    <h3 class="heading wow fadeInUp">Shop Instagram</h3>
-                    <p class="subheading text-secondary wow fadeInUp">Elevate your wardrobe with fresh finds today!</p>
-                </div>
-                <div dir="ltr" class="swiper tf-sw-shop-gallery" data-preview="5" data-tablet="3" data-mobile="2" data-space-lg="10" data-space-md="10" data-space="8" data-pagination="2" data-pagination-md="3" data-pagination-lg="1">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay=".1s">
-                                <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{% static 'web/images/gallery/gallery-1.jpg' %}" src="{% static 'web/images/gallery/gallery-1.jpg' %}" alt="image-gallery">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip"><span class="icon icon-eye"></span> <span class="tooltip">View Product</span></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay=".2s">
-                                <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{% static 'web/images/gallery/gallery-2.jpg' %}" src="{% static 'web/images/gallery/gallery-2.jpg' %}" alt="image-gallery">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip"><span class="icon icon-eye"></span> <span class="tooltip">View Product</span></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay=".3s">
-                                <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{% static 'web/images/gallery/gallery-3.jpg' %}" src="{% static 'web/images/gallery/gallery-3.jpg' %}" alt="image-gallery">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip"><span class="icon icon-eye"></span> <span class="tooltip">View Product</span></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay=".4s">
-                                <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{% static 'web/images/gallery/gallery-4.jpg' %}" src="{% static 'web/images/gallery/gallery-4.jpg' %}" alt="image-gallery">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip"><span class="icon icon-eye"></span> <span class="tooltip">View Product</span></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay=".5s">
-                                <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{% static 'web/images/gallery/gallery-5.jpg' %}" src="{% static 'web/images/gallery/gallery-5.jpg' %}" alt="image-gallery">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip"><span class="icon icon-eye"></span> <span class="tooltip">View Product</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sw-pagination-gallery sw-dots type-circle justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-        <!-- /Gallery shop gram -->
-        <!-- Iconbox -->
-        <section class="flat-spacing">
-            <div class="container">
-                <div dir="ltr" class="swiper tf-sw-iconbox" data-preview="4" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-sm="2" data-pagination-md="3" data-pagination-lg="4">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box">
-                                <div class="icon-box"><span class="icon icon-return"></span></div>
-                                <div class="content text-center">
-                                    <h6>14-Day Returns</h6>
-                                    <p class="text-secondary">Risk-free shopping with easy returns.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box">
-                                <div class="icon-box"><span class="icon icon-shipping"></span></div>
-                                <div class="content text-center">
-                                    <h6>Free Shipping</h6>
-                                    <p class="text-secondary">No extra costs, just the price you see.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box">
-                                <div class="icon-box"><span class="icon icon-headset"></span></div>
-                                <div class="content text-center">
-                                    <h6>24/7 Support</h6>
-                                    <p class="text-secondary">24/7 support, always here just for you</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box">
-                                <div class="icon-box"><span class="icon icon-sealCheck"></span></div>
-                                <div class="content text-center">
-                                    <h6>Member Discounts</h6>
-                                    <p class="text-secondary">Special prices for our loyal customers.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sw-pagination-iconbox sw-dots type-circle justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-        <!-- /Iconbox -->
+        <!-- /Terms of use -->
 
         {% endblock %}
