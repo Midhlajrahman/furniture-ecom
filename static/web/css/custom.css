@@ -69,3 +69,7 @@
     -webkit-border-radius: 50%;
     display: block;
 }
+
+.footer-logo img{
+    height: 60px;
+}
